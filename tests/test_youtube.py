@@ -44,6 +44,7 @@ def test_download_one_false_skip():
         skip_non_music_sections=False,
         file_name_f=yt.default_filename,
         multi_core=0,
+        proxy="",
     )
     music = MP3(
         "Hotel California - Live On MTV, 1994/Eagles - Hotel California - Live On MTV, 1994.mp3",
@@ -95,6 +96,7 @@ def test_download_one_true_skip():
         skip_non_music_sections=False,
         file_name_f=yt.default_filename,
         multi_core=0,
+        proxy="",
     )
 
 
@@ -131,6 +133,7 @@ def test_download_cover_none():
         skip_non_music_sections=False,
         file_name_f=yt.default_filename,
         multi_core=0,
+        proxy="",
     )
 
     music = MP3(
