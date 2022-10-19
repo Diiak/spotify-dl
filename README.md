@@ -33,6 +33,10 @@ If you want to make use of parallel download, pass `-mc <number>`, where `<numbe
 For running in verbose mode, append `-V`
 
     spotify_dl -V -l spotify_playlist_link -o download_directory
+    
+For using proxies, add `-p`. HTTP and SOCKS5 are supported.
+
+    spotify_dl -p 'http://username:password@hostname:port' -l spotify_playlist_link	
 
 For more details and other arguments, issue `-h`
 

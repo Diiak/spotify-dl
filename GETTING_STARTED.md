@@ -54,6 +54,10 @@ You need Python 3.6+. To download songs as MP3, you will need ffmpeg.
    - `download_directory` is the location where the songs must be downloaded to. If you give a `.` then it will download to the current directory.
    
 6. If you prefer to skip MP3 conversion, pass `-m` or `--skip_mp3` as a parameter when running the script
+
+7. If you want to use proxies for downloading, pass `-p`. HTTP and SOCKS5 are supported.
+
+   `spotify_dl -p "http://username:password@hostname:port" -l spotify_playlist1 spotify_playlist2 -o download_directory`
   
 ### Use Docker
 
