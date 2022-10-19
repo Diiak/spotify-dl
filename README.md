@@ -34,7 +34,7 @@ For running in verbose mode, append `-V`
 
     spotify_dl -V -l spotify_playlist_link -o download_directory
     
-For using proxies, add `-p`. HTTP and SOCKS5 are supported.
+For using proxies, pass `-p`. HTTP and SOCKS5 are supported.
 
     spotify_dl -p 'http://username:password@hostname:port' -l spotify_playlist_link	
 
@@ -66,4 +66,4 @@ Take a look at [CONTRIBUTORS](https://github.com/SathyaBhat/spotify-dl/graphs/co
 
 ### Issues, Feedback, Contact details
 
-Feel free to raise any bugs/issues under Github issues. Pull requests are also more than welcome.
+Feel free to raise any bugs/issues under Github issues. Pull requests are also more than welcome. 
